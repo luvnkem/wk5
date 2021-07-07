@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(25, 102, 102);
+
+}
+.container{
+    background-color:rgb(23, 230, 133);
+    height: 400px;
+    width: 45%;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+
+form div {
+    margin: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: rgb(82, 84, 99);
+
+}
+
+h1{
+    color:rgb(78, 76, 53);
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+form div input{
+    border: 2px solid whitesmoke;
+    border-radius: 2px;
+
+}
+    

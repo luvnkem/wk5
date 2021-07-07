@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./Task2.css">
+</head>
+<body>
+    <form action="" id="container" method="GET">
+        <h1>Registration Form</h1>
+        <div>
+            <label for="firstname">First Name</label><br>
+            <input type="text" required minlength="8" maxlength="12"><br>
+        </div>
+        <div>
+            <label for="lastname">Last Name</label><br>
+            <input type="text" required minlength="8" maxlength="12"><br>
+        </div>
+        <div>
+            <label for="email">Email</label><br>
+            <input type="email" required [@]><br>
+        </div>
+        <div>
+            <label for="username">Username</label><br>
+            <input type="text" placeholder="must contain any of [@#$%^&*]" required minlength="6" maxlength="8"><br>
+        </div>
+        <div>
+            <label for="password1" id="p1" >Password</label><br>
+            <input type="password"  placeholder="Type password" required><br>
+        </div>
+        <div>
+            <label for="password2" id="p2"> Re-Password</label><br>
+            <input type="password"  placeholder="Re-type password" required><br>
+        </div>
+        <div>
+            <button id="submit">Submit</button>
+        </div>    
+    </form>
+
+   <script src="./Task2.js"></script> 
+</body>
+</html>
